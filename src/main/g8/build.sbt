@@ -6,7 +6,7 @@ scalacOptions ++= Seq("-language:postfixOps", "-language:implicitConversions", "
  
 libraryDependencies ++= Seq(
   "org.scalaz" %% "scalaz-core" % "7.0.0",
-  "org.specs2" %% "specs2" % "1.14"
+  "org.specs2" %% "specs2" % "1.14" % "test"
 )
  
 initialCommands in console := "import scalaz._, Scalaz._"
