@@ -1,9 +1,9 @@
-#giter8: scalaz, sbt-revolver, specs2, scalacheck
+### giter8: scalaz, sbt-revolver, specs2, scalacheck
 
-##Requirements
+#### Requirements
 
 * [giter8](https://github.com/n8han/giter8)
 
-##Versions
+## Versions
 
-See <blob/master/src/main/g8/build.sbt>
+* See [build.sbt](blob/master/src/main/g8/build.sbt) for dependency versions
