@@ -1,18 +1,9 @@
-#g8's project template featuring scala, scalaz and sbt-revolver.
-
-Heavily inspired from:
-
-* [sample-unfiltered](https://github.com/GoBoundless/sample-unfiltered)
-* [scala-sbt](https://github.com/typesafehub/scala-sbt.g8)
-* My own [scala-sbt-revolver](https://github.com/adinapoli/scala-sbt-revolver.g8)
-
+#giter8: scalaz, sbt-revolver, specs2, scalacheck
 
 ##Requirements
 
-You need to install [giter8](https://github.com/n8han/giter8)
+* [giter8](https://github.com/n8han/giter8)
 
-##Why Scalaz 7?
+##Versions
 
-Because it will be the new officially supported Scalaz version. It has
-been partially rewritten and it's close to the functional style than
-version 6.0
+See <blob/master/src/main/g8/build.sbt>
