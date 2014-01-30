@@ -5,6 +5,7 @@ resolvers ++= Seq("Typesafe Snapshots" at "http://repo.typesafe.com/typesafe/sna
 scalacOptions ++= Seq("-language:postfixOps", "-language:implicitConversions", "-language:higherKinds", "-deprecation", "-feature")
  
 libraryDependencies ++= Seq(
+  "com.typesafe"      %  "config"                    % "1.2.0",
   "com.typesafe"      %% "scalalogging-slf4j"        % "1.0.1",
   "org.scalaz"        %% "scalaz-core"               % "7.0.5",
   "org.scalaz"        %% "scalaz-scalacheck-binding" % "7.0.5" % "test",
