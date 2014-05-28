@@ -7,6 +7,7 @@ scalacOptions ++= Seq("-language:postfixOps", "-language:implicitConversions", "
 libraryDependencies ++= Seq(
   "com.typesafe"      %  "config"                    % "1.2.0",
   "com.typesafe"      %% "scalalogging-slf4j"        % "1.0.1",
+  "joda-time"         %  "joda-time"                 % "2.2",
   "org.scalaz"        %% "scalaz-core"               % "7.0.5",
   "org.scalaz"        %% "scalaz-scalacheck-binding" % "7.0.5" % "test",
   "org.typelevel"     %% "scalaz-contrib-210"        % "0.1.5",
