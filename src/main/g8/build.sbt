@@ -1,7 +1,8 @@
 Revolver.settings
 
 resolvers ++= Seq(
-  "Typesafe Snapshots" at "http://repo.typesafe.com/typesafe/snapshots/", 
+  "Typesafe Relases" at "http://repo.typesafe.com/typesafe/releases/",
+  "Typesafe Snapshots" at "http://repo.typesafe.com/typesafe/snapshots/",
   "Sonatype snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/",
   "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases")
 
