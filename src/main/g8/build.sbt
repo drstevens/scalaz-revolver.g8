@@ -1,10 +1,10 @@
 Revolver.settings
 
 resolvers ++= Seq(
-  "Typesafe Relases" at "http://repo.typesafe.com/typesafe/releases/",
+  "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases/",
   "Typesafe Snapshots" at "http://repo.typesafe.com/typesafe/snapshots/",
-  "Sonatype snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/",
-  "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases")
+  "Sonatype Snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/",
+  "Scalaz Bintray" at "http://dl.bintray.com/scalaz/releases")
 
 
 scalacOptions ++= Seq("-language:postfixOps", "-language:implicitConversions", "-language:higherKinds", "-deprecation", "-feature")
